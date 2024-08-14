@@ -1,0 +1,58 @@
+body {
+    align-items: center;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    margin: 0px;
+    overflow: hidden;
+    padding: 0px;
+}
+
+/* Black Color Theme */
+.wrapper {
+    width: 100%;
+    height: auto;
+    padding: 2rem;
+    margin: 2rem auto;
+    border: .2rem solid black;
+    text-align: center;
+    color: rgb(255, 255, 255); /* Text color for black theme */
+    background-color: rgb(3, 157, 168); /* Background color for black theme */
+}
+
+h2 {
+    font-size: 1rem;
+    color: goldenrod; /* Text color for blue theme */
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 1.4rem;
+    color: rgb(106, 106, 173); /* Text color for blue theme */
+}
+
+#inputdata {
+    font-size: 1.5rem;
+    padding: .3rem .7rem .3rem .7rem;
+    border-radius: .8rem;
+    color: rgb(0, 0, 0);
+    background-color: rgb(127, 127, 202); /* Background color for black theme */
+}
+
+#inputdata:hover {
+    box-shadow: 0px 0px 10px white;
+}
+
+/* Blue Color Theme */
+.wrapper radio {
+    width: 100%;
+    height: auto;
+    padding: 2rem;
+    margin: 2rem auto;
+    border: .2rem solid rgb(141, 141, 220);
+    text-align: center;
+    color: seagreen; /* Text color for blue theme */
+    background-color: rgb(144, 144, 222); /* Background color for blue theme */
+}
+
+/* Apply similar color adjustments for other elements in the blue theme as needed */
